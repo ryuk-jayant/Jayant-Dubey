@@ -1,77 +1,43 @@
-function Project_1() {
+import React from 'react'
+
+const projects=[
+  {name:"API Development in C++",
+    image:"https://assets-global.website-files.com/6228e4b0518bd64c391affa4/622902d6c427f74b6db921e1_catalog-lyft.gif",
+    link:"",
+    used:"Used C++ Libraries"
+  },
+  {name:"Bash Tool development",
+  image:"https://assets-global.website-files.com/6228e4b0518bd64c391affa4/622902bee9c57d28ce9b6ac6_PS%20Catalog.png",
+  link:"",
+  used:"Utillized Bash for automation"
+},
+{name:"Android App Developmnt",
+image:"https://assets-global.website-files.com/6228e4b0518bd64c391affa4/622902c7d6e1f93250f25996_Catalog-LinkedIn.gif",
+link:"",
+used:"Used Kotlin"
+},
+{name:"Web Development",
+image:"https://assets-global.website-files.com/6228e4b0518bd64c391affa4/6229017bee357576d59d5dcf_CatalogAirbnb.gif",
+link:"",
+used:"used React.js,Tailwind.css"
+},
+];
+export default function projectslist() {
   return (
-    <div className=" brightness-50 hover:brightness-100 max-w-sm rounded overflow-hidden shadow-lg">
-      <img
-        classname="w-full "
-        src="https://retaintechnologies.com/wp-content/uploads/2020/04/Project-Management-Mantenimiento-1.jpg"
-        alt="img not found sir!"
-      />
-      <h1 className="text-white text-center text-3xl font-bold">
-        Mausam Web App
-      </h1>
-      <p className="text-base text-gray-200">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum{" "}
-      </p>
+    <div className='flex justify-center'>
+    <div className='grid grid-cols-2 gap-40'>
+      {projects.map((ele)=>{
+        return(
+          <div className='border border-8 border-[#fef0cc] bg-black hover:bg-[#2a66ad] w-[30vw] '>
+          <img className="p-2"src={ele.image} alt=""/>
+          <h1 className='pt-2 text-[#fef0cc] font-semibold text-3xl'>{ele.name}</h1>
+          <p className='p-2 tracking-wide text-[#fef0cc]'>{ele.used}</p>
+          
+          </div>
+        )
+      })
+      }
     </div>
-  );
-}
-function Project_2() {
-  return (
-    <div className=" brightness-50 hover:brightness-100 max-w-sm rounded overflow-hidden shadow-lg">
-      <img
-        className="w-full "
-        src="https://teamhood.com/wp-content/uploads/2021/02/project-management.jpg"
-        alt="img not found"
-      />
-      <h1 className="text-white text-center font-bold text-3xl mb-2 underline">
-        REStAPI using c++
-      </h1>
-      <p className="text-gray-200 text-base">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum{" "}
-      </p>
-      <br />
     </div>
-  );
+  )
 }
-function Project_3() {
-  return (
-    <div className=" brightness-50 hover:brightness-100 max-w-sm rounded overflow-hidden shadow-lg">
-      <img
-        className="w-full "
-        src="https://images.unsplash.com/photo-1610986602538-431d65df4385?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTc3M3wwfDF8c2VhcmNofDJ8fGpzb258ZW58MHx8fA&ixlib=rb-1.2.1&q=80&w=2000"
-        alt="img not found"
-      />
-      <h1 className="text-white text-center font-bold text-3xl mb-2 underline">
-        Editing Json Files in C++
-      </h1>
-      <p className="text-gray-200 text-base">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum{" "}
-      </p>
-    </div>
-  );
-}
-export { Project_1, Project_2, Project_3 };
