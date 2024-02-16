@@ -25,15 +25,16 @@ used:"used React.js,Tailwind.css"
 export default function projectslist() {
   return (
     <div className='flex justify-center'>
-    <div className='grid grid-cols-2 gap-40'>
+    <div className='flex flex-wrap justify-center gap-40'>
       {projects.map((ele)=>{
         return(
-          <div className='border border-8 border-[#fef0cc] bg-black hover:bg-[#2a66ad] w-[30vw] '>
+          <a href={ele.link}>
+          <div className='border border-8 border-[#fef0cc] bg-black hover:bg-[#2a66ad] w-[60vw] lg:w-[30vw] '>
           <img className="p-2"src={ele.image} alt=""/>
-          <h1 className='pt-2 text-[#fef0cc] font-semibold text-3xl'>{ele.name}</h1>
-          <p className='p-2 tracking-wide text-[#fef0cc]'>{ele.used}</p>
-          
+          <h1 className='pt-2 text-[#fef0cc] font-semibold text-3xl text-wrap overflow-hidden'>{ele.name}</h1>
+          <p className='p-2 tracking-wide text-[#fef0cc] text-wrap overflow-hidden'>{ele.used}</p>
           </div>
+          </a>
         )
       })
       }

@@ -4,7 +4,7 @@ import Navbar from "./components/navbar.js";
 import Main from "./components/main.js";
 export default function App() {
   return (
-    <div className="bg-[#2a66ad]">
+    <div className="bg-[#8e41b0]">
         <Navbar/>
         <Main/>
         <Projects/>

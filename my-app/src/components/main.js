@@ -1,14 +1,25 @@
 import React from 'react'
+import { TypeAnimation } from 'react-type-animation';
 import img from "../images/3-bg.png"
 export default function main() {
   return (
     <div className='mt-[18vh]'>
        
-        <div className='grid grid-cols-2 text-yellow-500'>
-       <img className=" ml-36 " style={{height:''}} src={img} alt="Not found"/>
-       <div className='w-[40vw]'>
+        <div className='flex flex-wrap justify-center text-yellow-500'>
+       <img className=" lg:ml-36 " style={{height:''}} src={img} alt="Not found"/>
+       <div className='w-[70vw] lg:w-[40vw]'>
        <h1 className='font-bold text-6xl'>About me</h1>
-       <p className='text-white text-xl mt-5 text-wrap'>Hey, Jayant this end currently thinking about what to write and working on other projects stay tuned for blogs.  </p>
+       <TypeAnimation
+      sequence={[
+        // Same substring at the start will only be typed out once, initially
+       "hi i am jayant and this is my portfolio just a place where i write about stuff i read on a regular basis testing animation class of react type animation."
+      ]}
+      wrapper="span"
+      speed={50}
+      className='font-semibold text-3xl pt-10 text-white'
+      style={{ display: 'inline-block' }}
+      repeat={1}
+    />
        </div>
        </div>
     </div>

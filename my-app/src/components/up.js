@@ -67,7 +67,7 @@ export default function Frontview(){
         // Same substring at the start will only be typed out once, initially
         'I am A Developer',
         1000, // wait 1s before replacing "Mice" with "Hamsters"
-        'I am A Lerner',
+        'I am A Learner',
         1000,
         'I am A Student',
         1000,
