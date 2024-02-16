@@ -7,7 +7,7 @@ export default function navbar() {
     <div className='pt-5 text-lg font-mono flex items-center justify-center md:justify-around  text-yellow-400'>
     <Frontview/>
     <div className='grid grid-cols-3 gap-10 font-semibold opacity-0 md:opacity-100'>
-    <a href='/#Project' className='hover:text-yellow-100'>Projects</a>
+    <a href='/Jayant-Dubey/#Project' className='hover:text-yellow-100'>Projects</a>
     <Link to={'/Contact'} className='hover:text-yellow-100'>Contact</Link>
     <Link to={'/Blog'} className='hover:text-yellow-100'>Blogs</Link>
     </div>

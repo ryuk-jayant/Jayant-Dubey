@@ -3,10 +3,10 @@ import { TypeAnimation } from 'react-type-animation';
 import img from "../images/3-bg.png"
 export default function main() {
   return (
-    <div className='mt-[18vh]'>
+    <div className='mt-[18vh] '>
        
         <div className='flex flex-wrap justify-center text-yellow-500'>
-       <img className=" lg:ml-36 " style={{height:''}} src={img} alt="Not found"/>
+       <div className=' '><img className=" lg:ml-36" style={{height:''}} src={img} alt="Not found"/></div>
        <div className='w-[70vw] lg:w-[40vw]'>
        <h1 className='font-bold text-6xl'>About me</h1>
        <TypeAnimation
