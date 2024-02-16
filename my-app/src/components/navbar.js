@@ -1,7 +1,7 @@
 import React from 'react'
 import img from "../images/jupiter.png"
 import Frontview from "./up.js";
-import { Link ,Outlet} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 export default function navbar() {
   return (
     <div className='pt-5 text-lg font-mono flex items-center justify-center md:justify-around  text-yellow-400'>
