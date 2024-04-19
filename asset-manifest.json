@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/Jayant-Dubey/static/js/main.b8f9d0af.js",
+    "main.js": "/Jayant-Dubey/static/js/main.d934e6e0.js",
     "static/media/3-bg.png": "/Jayant-Dubey/static/media/3-bg.8fa1485cabf2d94a61d0.png",
     "static/media/jupiter.png": "/Jayant-Dubey/static/media/jupiter.d45606fa9f325c726a0a.png",
     "index.html": "/Jayant-Dubey/index.html",
-    "main.b8f9d0af.js.map": "/Jayant-Dubey/static/js/main.b8f9d0af.js.map"
+    "main.d934e6e0.js.map": "/Jayant-Dubey/static/js/main.d934e6e0.js.map"
   },
   "entrypoints": [
-    "static/js/main.b8f9d0af.js"
+    "static/js/main.d934e6e0.js"
   ]
 }
