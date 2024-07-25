@@ -12,7 +12,7 @@ export default function main() {
        <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
-       "hi i am jayant and this is my portfolio just a place where i write about stuff i read on a regular basis testing animation class of react type animation."
+       "hi i am jayant and this is my portfolio just a place where i write about stuff i do on a regular basis.Do hit me up for project discussion. "
       ]}
       wrapper="span"
       speed={50}

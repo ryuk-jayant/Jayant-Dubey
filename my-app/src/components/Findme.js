@@ -3,12 +3,16 @@ import Navbar from "./navbar.js";
 
 
 export default function Findme() {
+  //const [msg,setmsg]=useState("ss");
+  const handelsubmit=()=>{
+    console.log("i am called");
+  }
   return (
     
     <div className="bg-[#8e41b0] h-screen">
       <Navbar/>
       <div className="relative mt-20 md:mt-0">
-        <form  class="md:w-[40vw] w-full absolute md:right-[30%] top-[10vh] border py-20 px-10 md:p-20 border-8">
+        <form onSubmit={handelsubmit} class="md:w-[40vw] w-full absolute md:right-[30%] top-[10vh] border py-20 px-10 md:p-20 border-8">
           
           <div class="mb-5">
             <label
