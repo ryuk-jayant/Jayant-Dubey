@@ -2,9 +2,12 @@ import React from 'react'
 import blogs from "./blog.json";
 import Navbar from './navbar';
 import { Link } from 'react-router-dom';
+import bgImg from "../images/sun_wall.png"
 export default function Blog() {
   return (
-    <div className="bg-[#8e41b0] h-screen">
+    <div className="min-h-screen bg-fixed bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${bgImg})` }}
+    >
       <Navbar/>
         <h1 className='text-4xl text-[#eab308] font-semibold pt-10 text-center '>My Blogs</h1>
         <div className='flex flex-col items-center justify-center gap-10 mt-10'>

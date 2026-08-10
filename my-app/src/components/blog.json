@@ -13,5 +13,20 @@
       ""
     ],
     "Bg": "https://media1.tenor.com/m/AZVU4026og0AAAAC/sanji.gif"
+  },
+  {
+    "id": 2,
+    "title": "GNN's and Why r they so popular !",
+    "author": "Jayant Kr",
+    "date": "2026-08-10",
+    "content": "",
+    "tags": ["React", "JavaScript", "Web Development"],
+    "categories": ["Machine Learning", "Computer Science"],
+    "images": [
+      "https://cdn.nerdyelectronics.com/wp-content/webp-express/webp-images/uploads/2018/05/three-jobs.jpg.webp",
+      "",
+      ""
+    ],
+    "Bg": "https://media1.tenor.com/m/6ftWUtjeBfQAAAAd/luffy.gif"
   }
 ]

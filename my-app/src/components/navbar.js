@@ -8,7 +8,7 @@ export default function navbar() {
     <Frontview/>
     <div className='grid grid-cols-3 gap-10 font-semibold opacity-0 md:opacity-100'>
     <a href='/Jayant-Dubey/#Project' className='hover:text-yellow-100'>Projects</a>
-    <Link to={'/Contact'} className='hover:text-yellow-100'>Contact</Link>
+    {/* <Link to={'/Contact'} className='hover:text-yellow-100'>Contact</Link> */}
     <Link to={'/Blog'} className='hover:text-yellow-100'>Blogs</Link>
     </div>
      <img className='h-24' src={img} alt="not found"/>
