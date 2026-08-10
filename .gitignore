@@ -1,0 +1,44 @@
+# Always ignore API keys, tokens, and database passwords
+.env
+.env.local
+.env.production
+config.php
+credentials.json
+
+# Dependencies (Generated folders)
+node_modules/
+bower_components/
+vendor/
+
+# Build outputs and temporary files
+dist/
+build/
+.cache/
+.sass-cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# User uploads / Media backups (Prevents bloated repositories)
+# Adjust these paths based on your folder structure
+/uploads/
+/wp-content/uploads/
+/media/
+*.zip
+*.tar.gz
+*.mp4
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDEs and Text Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
